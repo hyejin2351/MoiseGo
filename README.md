@@ -3,6 +3,9 @@
 
 * 벤치마킹: [행정안전부](https://www.mois.go.kr/frt/a01/frtMain.do)
 <br><br>
+* 작업 기간<br>
+2018.11.07 ~
+<br><br>
 * 작업 기여도<br>
 100%
 <br><br>
