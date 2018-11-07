@@ -1,0 +1,22 @@
+{
+  "name": "MoiseGo",
+  "version": "1.0.1",
+  "description": "행정안전부 웹 사이트 제작",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyejin2351/MoiseGo.git"
+  },
+  "keywords": [
+    "행정안전부", "웹 접근성", "웹 표준"
+  ],
+  "author": "hyejin2351 <hyejin2351@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyejin2351/MoiseGo/issues"
+  },
+  "homepage": "https://github.com/hyejin2351/MoiseGo#readme"
+}
