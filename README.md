@@ -15,7 +15,7 @@
 * 사용 언어<br>
 HTML5<br>
 CSS3<br>
-JavaScript<br>
+JavaScript
 <br><br>
 * 사용 툴<br>
 Management: Github Projects Board<br>
