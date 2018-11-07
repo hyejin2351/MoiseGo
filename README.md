@@ -1,8 +1,8 @@
 # MoiseGo
-행정안전부 웹 사이트 제작
+공공기관 웹 사이트 제작
 
-벤치마킹: [행정안전부](https://www.mois.go.kr/frt/a01/frtMain.do)
-
+* 벤치마킹: [행정안전부](https://www.mois.go.kr/frt/a01/frtMain.do)
+<br><br>
 * 작업 기여도<br>
 100%
 <br><br>
