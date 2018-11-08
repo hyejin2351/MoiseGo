@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <title>행정안전부</title>
     <!-- 콘텐츠 타입 및 언어 -->
@@ -17,12 +18,157 @@
     <meta name="robots" content="all">
     <meta name="format-description" content="telephone=no, address=no, email=no">
     <!-- 스타일링 -->
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/default.css">
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <section id="wrap">
+        <!-- 바로가기 -->
+        <p id="jump_to">
+            <a href="#main">본문 바로가기</a>
+            <a href="#nav">대메뉴 바로가기</a>
+        </p>
+
+        <section id="header_wrap">
+            <header>
+                <!-- 상단 로고 -->
+                <h1><a href="/"><img src="./img/logo.png" alt="행정안전부"></a></h1>
+                <p class="govslogan"><a href="#"><img src="./img/slogan.png" alt="국민의 내일을 위한 정부혁신-보다 나은 정부"></a></p>
+                <p class="frtn_taegeukgi"><a href="#"><img src="./img/national_flag.png" alt="국가상징 알아보기"></a></p>
+                <p class="govindex"><a href="#"><img src="./img/korea_slogan.png" alt="국민의 나라 정의로운 대한민국"></a></p>
+
+                <!-- 상단 메뉴 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="/">사이트맵</a></li>
+                        <li><a href="/" target="_blank" rel="noopener noreferrer">어린이</a></li>
+                        <li><a href="/" target="_blank" rel="noopener noreferrer">ENGLISH</a></li>
+                        <li class="sns1"><a href="/" target="_blank" rel="noopener noreferrer">페이스북</a></li>
+                        <li class="sns2"><a href="/" target="_blank" rel="noopener noreferrer">트위터</a></li>
+                        <li class="sns3"><a href="/" target="_blank" rel="noopener noreferrer">블로그</a></li>
+                        <li class="sns6"><a href="/" target="_blank" rel="noopener noreferrer">인스타그램</a></li>
+                        <li class="sns4"><a href="/" target="_blank" rel="noopener noreferrer">유튜브</a></li>
+                        <li class="sns5"><a href="/" target="_blank" rel="noopener noreferrer">카카오톡</a></li>
+                    </ul>
+                </div>
+
+                <!-- 검색 -->
+                <div class="header_srchBox">
+                    <form id="frmMainSearch" name="frmMainSearch" action="/srch.jsp" method="get" target="_blank">
+                        <fieldset>
+                            <legend>통합검색</legend>
+                            <div class="inner">
+                                <label for="search_txt">검색어 입력</label>
+                                <input type="text" id="search_txt" name="query" title="내용을 입력하세요">
+                            </div>
+                            <input type="submit" class="search_btn" title="새창열기" value="검색">
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- //검색 -->
+            </header>
+        </section>
+
+        <section class="nav_wrap">
+            <nav id="nav">
+                <ul class="nav on">
+                    <li><a href="/" class="menu_dep1">정보공개</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a>
+                                    <ul>
+                                        <li><a href="/" rel="noopener noreferrer"></a></li>
+                                        <li><a href="/" rel="noopener noreferrer"></a></li>
+                                        <li><a href="/" rel="noopener noreferrer"></a></li>
+                                        <li><a href="/" rel="noopener noreferrer"></a></li>
+                                        <li><a href="/" rel="noopener noreferrer"></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/" class="menu_dep1">고객민원</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/" class="menu_dep1">뉴스·소식</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/" class="menu_dep1">정책자료</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/" class="menu_dep1">업무안내</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/" class="menu_dep1">기관소개</a>
+                        <div class="dep2_area">
+                            <ul>
+                                <li><a href="/" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                                <li><a href="/" target="_blank" rel="noopener noreferrer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <main id="main"></main>
+        <footer></footer>
+    </section>
+
+
 </body>
+
 </html>

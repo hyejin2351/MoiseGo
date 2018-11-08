@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/**********/
+/* header */
+/**********/
+
+/* jump_to */
+#jump_to {margin: 0; padding:0;}
+#jump_to a {display:block;overflow:hidden;position:absolute;left:0;top:-10000px;}
+
+/* header_wrap */
+#header_wrap {position: absolute; top: 0; width: 100%; z-index: 1000;}
+#header_wrap a { text-decoration: none;}
+#header_wrap:before {content: ''; width: 100%; height: 44px; background: #364c86; display: block; position: absolute; left: 0; top: 75px; box-sizing: border-box; border-bottom: 1px solid #053863}
+
+/* header */
+header { width: 1200px; margin: 0 auto; text-align: left; position: relative; padding-top: 75px;}
+header h1 { width: 178px; position: absolute; left: 0; top: 15px; z-index: 10; display: inline-block; margin: 0; }
+header h1 img { width: 100%; }
+
+/* 상단 로고 */
+.govslogan {position: absolute; left: 200px; top: 17px; margin: 0; padding: 0}
+.frtn_taegeukgi {position: absolute; left: 305px; top: 21px;  margin: 0; padding: 0}
+.govindex {position: absolute; left: 415px; top: 19px; margin: 0; padding: 0}
+
+/* 상단 메뉴 */
+.top_menu {position: absolute; top: 0; right: 0; }
+.top_menu ul {margin-top: 30px; text-align: right; }
+.top_menu ul li {display: inline-block; padding: 0 6px 0 9px; font-size: 90%; vertical-align: middle; position: relative;}
+.top_menu ul li:before {content: ''; position: absolute; left: 0; top: 3px; width: 1px; height: 12px; display: inline-block; background-color: #ddd;}
+.top_menu ul li a {color: #666}
+.top_menu ul li:first-child:before {display: none;}
+.top_menu a[target="_blank"]:after { content: ''; width: 11px; height: 11px; position: relative; display: inline-block; background: url(../img/iconset_main2.png) no-repeat; background-position: -125px 0px; vertical-align: -2px; margin-left: 4px;}
+.top_menu li[class^="sns"] a[target="_blank"]:after {display: none;}
+.top_menu ul li[class^="sns"]:before { display: none; }
+.top_menu ul li[class^="sns"] {padding: 0; margin: 0 4px;}
+.top_menu ul li[class^="sns"] a { text-indent: -9999px; overflow: hidden; background: url(../img/iconset_main2.png) no-repeat; background-position: -25px -75px; text-align: left; display: block;}
+.top_menu ul li.sns1 a {background-position: 15px -50px; width: 8px; height: 15px; margin-left: 5px; padding-left: 15px;}
+.top_menu ul li.sns2 a {background-position: -25px -48px; width: 18px; height: 17px;}
+.top_menu ul li.sns3 {margin: 0;} /*아이콘 크기가 다 달라서 적용 마진 패딩 수정*/
+.top_menu ul li.sns3 a {background-position: -46px -50px; width: 12px; height: 17px; padding: 0 4px;} 
+.top_menu ul li.sns6 a {background-position: -250px -125px; width: 19px; height: 19px;}
+.top_menu ul li.sns4 a {background-position: -75px -48px; width: 18px; height: 17px;}
+.top_menu ul li.sns5 a {background-position: -100px -50px; width: 18px; height: 17px;}
+
+/* 해더 검색박스 */
+.header_srchBox {position: absolute; right: 0; top: 80px;}
+.header_srchBox legend, .header_srchBox label {width: 0; height: 0; overflow: hidden; text-indent: -9999px; display: block;}
+.header_srchBox input[type="text"] { border: none; height: 34px; line-height: 34px; width: 150px; box-sizing: border-box;}
+.header_srchBox .search_btn {text-indent: -9999px; overflow: hidden; background: url(../img/iconset_main2.png) no-repeat; background-position: -25px -75px; width: 19px; height: 19px; cursor: pointer; position: absolute; right: 12px; top: 6px;}
+.header_srchBox form {right:0; top: 0; width: 180px; height: 34px; box-sizing: border-box; display: block; background: #fff;}
+/* .search_close { display: none; } */
+
+/* 네비게이션 */
+.nav_wrap { background: #fff; overflow: hidden; border-bottom: 1px solid #ddd;}
+.nav { display: table; }
+#nav { width: 1200px; margin: 0 auto; }
+#nav > ul { background: url(../img/navline.png) right top repeat-y; box-sizing: border-box; padding-right: 1px;}
+#nav > ul > li {font-size: 16px; font-weight: bold; display: table-cell; position: relative; box-sizing: border-box; background: url(../img//navline.png) left top repeat-y;}
+#nav > ul >li a { display: block; }
+#nav > ul > li.active > a {color:#fff; font-weight: bold; background: #1f2d5c;}
+

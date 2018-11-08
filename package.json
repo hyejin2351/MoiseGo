@@ -11,12 +11,17 @@
     "url": "git+https://github.com/hyejin2351/MoiseGo.git"
   },
   "keywords": [
-    "행정안전부", "웹 접근성", "웹 표준"
+    "행정안전부",
+    "웹 접근성",
+    "웹 표준"
   ],
   "author": "hyejin2351 <hyejin2351@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hyejin2351/MoiseGo/issues"
   },
-  "homepage": "https://github.com/hyejin2351/MoiseGo#readme"
+  "homepage": "https://github.com/hyejin2351/MoiseGo#readme",
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
 }
